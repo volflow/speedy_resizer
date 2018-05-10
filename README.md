@@ -1,12 +1,13 @@
 # speedy_resizer
 Simple command-line tool or module for fast bulk resizing of images using Pillow & multiprocessing
 
-#requirements
+# requirements
 python >=3.5
 Pillow or Pillow-SIMD for further speedup
 
-#useage
-usage: python3 resize.py [-h] -dir DIR [-dest DEST] [-subf] -w W -hi HI [-a] [-p]
+# useage
+```
+python3 resize.py [-h] -dir DIR [-dest DEST] [-subf] -w W -hi HI [-a] [-p]
 [-r RESAMPLE] [-q QUALITY]
 
 optional arguments:
@@ -21,3 +22,4 @@ optional arguments:
 -r RESAMPLE, --resample RESAMPLE
 specify resampling methods from PIL: LANCZOS, NEAREST, BILINEAR, BICUBIC are valid options
 -q QUALITY, --quality QUALITY specify jpg quality for resized images from 0 to 95; default 80
+```
