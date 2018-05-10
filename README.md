@@ -19,7 +19,6 @@ optional arguments:
 -hi HI                height of resized images
 -a, --aspect          resized images will retain aspect ratio
 -p, --padding         adds black padding to resized images (when --aspect flag is set) so imgs will be of size target_size
--r RESAMPLE, --resample RESAMPLE
-specify resampling methods from PIL: LANCZOS, NEAREST, BILINEAR, BICUBIC are valid options
+-r RESAMPLE, --resample RESAMPLE specify resampling methods from PIL: LANCZOS, NEAREST, BILINEAR, BICUBIC are valid options
 -q QUALITY, --quality QUALITY specify jpg quality for resized images from 0 to 95; default 80
 ```
