@@ -7,8 +7,7 @@ Pillow or Pillow-SIMD for further speedup
 
 # useage
 ```
-python3 resize.py [-h] -dir DIR [-dest DEST] [-subf] -w W -hi HI [-a] [-p]
-[-r RESAMPLE] [-q QUALITY]
+python3 resize.py [-h] -dir DIR [-dest DEST] [-subf] -w W -hi HI [-a] [-p] [-r RESAMPLE] [-q QUALITY]
 
 optional arguments:
 -h, --help            show this help message and exit
